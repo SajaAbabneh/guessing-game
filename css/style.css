@@ -1,6 +1,11 @@
 body header p{
 
+    color: magenta;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     padding-top: 50px;
+}
+body header h1{
+    color:green;
+    background-color: beige;
 }

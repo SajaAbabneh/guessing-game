@@ -1,11 +1,19 @@
 body header p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 50px;
 
-    color: magenta;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: x-large;
-    padding-top: 50px;
+
 }
-body header h1{
-    color:green;
-    background-color: beige;
+
+body main p{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body main ol li{
+    text-decoration: underline;
+    color:darkslateblue;
+}
+body main ul li{
+    color:darkslateblue;
+
 }

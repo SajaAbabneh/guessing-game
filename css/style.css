@@ -1,19 +1,33 @@
+body{
+    background-color:ivory;
+}
 body header p{
     font-family: 'Times New Roman', Times, serif;
     line-height: 50px;
-
-
+    border-style: solid ;
+    text-align: center;
 }
+body p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 body main p{
     font-family: 'Times New Roman', Times, serif;
+    /* border-style: solid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px; */
 
 }
 body main ol li{
     text-decoration: underline;
-    color:darkslateblue;
+    color:darkmagenta;
+
 }
 body main ul li{
-    color:darkslateblue;
+    color:darkmagenta;
+
 
 }

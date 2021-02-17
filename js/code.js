@@ -1,9 +1,10 @@
 'use strict';
-
-let fName = prompt('what is your name');
+fnamePrint();
+function fnamePrint()
+{let fName = prompt('what is your name');
 //console.log(fName);
 alert('Welcome ' + fName);
-
+}
 let count = 0;
 
 let uniSpecialization = prompt('Did you know i studied computer engineer? ', 'yes/y or no/n').toLowerCase();
@@ -94,7 +95,7 @@ if (loveflower === 'yes' || loveflower === 'y') {
 }
 alert('Answer of questions : My uniSpecialization is Computer engineer , My age 24 , My lovely color is gray , My favourite drink is coffee, I love flower very much');
 
-//Question 6
+/*//Question 6
 let w = 0;
 while (w < 4) {
   let yearStudy = prompt('How many years have I studied at the university?  ', 'Please answer it in numeric ');
@@ -117,9 +118,9 @@ while (w < 4) {
     break;
   }
 }
+*/
 
-
-//question 7
+/*//question 7
 
 let animalType = ['cat', 'bird', 'parrot'];
 let correct = false;
@@ -150,3 +151,4 @@ alert('Welcome ' + fName);
 
 
 
+*/

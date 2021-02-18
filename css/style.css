@@ -1,10 +1,12 @@
 body{
+    width: 600px;
+    margin: auto;
     background-color:ivory;
 }
 body header p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:  Arial, Helvetica, sans-serif;
     line-height: 50px;
-    border-style: solid ;
+    border:teal solid;
     text-align: center;
 }
 body p{
@@ -14,20 +16,28 @@ body p{
 
 body main p{
     font-family: 'Times New Roman', Times, serif;
-    /* border-style: solid;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px; */
+    border:teal solid;
+    text-align: center;
+    border-radius: 25px;
 
 }
 body main ol li{
-    text-decoration: underline;
-    color:darkmagenta;
+    text-decoration:wavy;
+    color:darkolivegreen;
 
 }
+.food{
+    width: 230px;
+    height: 165px;
+    float: right;
+}
+.ed{
+    width: 230px;
+    height: 165px;
+    float: right;
+}
 body main ul li{
-    color:darkmagenta;
+    color:darkolivegreen;
 
 
 }

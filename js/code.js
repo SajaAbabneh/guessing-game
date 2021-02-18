@@ -2,7 +2,7 @@
 
 function fnamePrint() {
   let fName = prompt('what is your name');
-  //console.log(fName);
+  console.log(fName);
   alert('Welcome ' + fName);
 }
 fnamePrint();
@@ -10,7 +10,7 @@ fnamePrint();
 let count = 0;
 
 let uniSpecialization = prompt('Did you know i studied computer engineer? ', 'yes/y or no/n').toLowerCase();
-//console.log(uniSpecialization);
+console.log(uniSpecialization);
 function major(university) {
   while (uniSpecialization !== 'yes' && uniSpecialization !== 'y' && uniSpecialization !== 'no' && uniSpecialization !== 'n') {
     uniSpecialization = prompt('Did you know i studied computer engineer? please answer yes or no  ', 'yes/y or no/n').toLowerCase();
@@ -25,10 +25,9 @@ function major(university) {
 }
 major(uniSpecialization);
 
-// second question
 
 let myAge = prompt('Did you know my age? ', 'yes/y or no/n').toLowerCase();
-//console.log(myAge);
+console.log(myAge);
 function myOld(old) {
   while (myAge !== 'yes' && myAge !== 'y' && myAge !== 'no' && myAge !== 'n') {
     myAge = prompt('Did you know my age ? please answer yes or no  ', 'yes/y or no/n').toLowerCase();
@@ -45,10 +44,9 @@ function myOld(old) {
 }
 myOld(myAge);
 
-// third question
 
 let colorLove = prompt('Did you know my lovely color ? ', 'yes/y or no/n').toLowerCase();
-//console.log(colorLove);
+console.log(colorLove);
 function loveColor(color) {
 
   while (colorLove !== 'yes' && colorLove !== 'y' && colorLove !== 'no' && colorLove !== 'n') {
@@ -66,10 +64,9 @@ function loveColor(color) {
 }
 loveColor(colorLove);
 
-// question four
 
 let favDrink = prompt('Did you know my favourite drink ? ', 'yes/y or no/n').toLowerCase();
-//console.log(favDrink);
+console.log(favDrink);
 function favoutriteDrink(drink) {
 
   while (favDrink !== 'yes' && favDrink !== 'y' && favDrink !== 'no' && favDrink !== 'n') {
@@ -87,10 +84,9 @@ function favoutriteDrink(drink) {
 }
 favoutriteDrink(favDrink);
 
-// question five
 
 let loveflower = prompt('Did you know if i love flowers? ', 'yes/y or no/n').toLowerCase();
-//console.log(loveflower);
+console.log(loveflower);
 
 function flowerLove(flower) {
   while (loveflower !== 'yes' && loveflower !== 'y' && loveflower !== 'no' && loveflower !== 'n') {
@@ -108,10 +104,9 @@ function flowerLove(flower) {
 flowerLove(loveflower);
 alert('Answer of questions : My uniSpecialization is Computer engineer , My age 24 , My lovely color is gray , My favourite drink is coffee, I love flower very much');
 
-//Question 6
 let w = 0;
 while (w < 4) {
-  let yearStudy =Number(prompt('How many years have I studied at the university?  ', 'Please answer it in numeric '));
+  let yearStudy = Number(prompt('How many years have I studied at the university?  ', 'Please answer it in numeric '));
   if (yearStudy > 5) {
     alert('Too high !');
     w++;
@@ -131,8 +126,6 @@ while (w < 4) {
     break;
   }
 }
-
-//question 7
 
 let animalType = ['cat', 'bird', 'parrot'];
 let correct = false;
